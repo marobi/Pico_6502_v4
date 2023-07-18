@@ -8,12 +8,13 @@ on the 'console' u can use:
 
 ^R : reset the 6502 processor.
 
-^L : toggle statistics output, currently the clock-speed.
+^L : toggle statistics output, currently the clock-speed is printed.
 
 ^D : dump the 16 VDU registers.
 
 
 When the 6502 executes a BRK, its registers are dumped and the EWOZ monitor is reentered.
+The ROMs are write-protected and can not be overwritten by the 6502.
 
 At 0xF000 u will find the mini assembler/disassembler
 
