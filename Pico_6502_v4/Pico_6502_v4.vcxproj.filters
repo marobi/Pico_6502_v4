@@ -31,13 +31,13 @@
     <ClCompile Include="mos65C02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="msbasic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="roms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msbasic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -60,9 +60,6 @@
     <ClInclude Include="mos65C02.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="msbasic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="pins.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -70,6 +67,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msbasic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

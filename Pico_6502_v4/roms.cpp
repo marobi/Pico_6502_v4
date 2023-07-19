@@ -17,7 +17,7 @@ typedef struct _sROMImage {
   char     name[16];
   uint16_t startAddress;
   uint16_t romsize;
-  uint8_t  *image;
+  const uint8_t  *image;
 } sROMImage;
 
 
@@ -49,7 +49,7 @@ uint8_t* readROM(String vROMname) {
 /// <param name="startAddress"></param>
 /// <param name="romSize"></param>
 /// <returns></returns>
-bool loadROM(uint8_t *vROM, uint16_t startAddress, uint16_t romSize) {
+bool loadROM(const uint8_t *vROM, uint16_t startAddress, uint16_t romSize) {
   // copy ROM in memory space
   for (uint16_t i = 0; i < romSize; i++) {
     mem[i + startAddress] = vROM[i];

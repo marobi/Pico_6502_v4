@@ -5,10 +5,6 @@
 #include "m6821.h"
 #include "sound.h"
 
-#include "ewoz.h"
-#include "mon_ext.h"
-#include "msbasic.h"
-
 #include "roms.h"
 
 extern void writeChar(uint8_t);
