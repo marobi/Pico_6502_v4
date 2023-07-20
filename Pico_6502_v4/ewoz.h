@@ -5,7 +5,7 @@
 #ifndef _EWOZ_h
 #define _EWOZ_h
 
-#include "arduino.h"
+#include "Arduino.h"
 
 #define EWOZ_START 0xFC00
 #define EWOZ_SIZE  0x0330

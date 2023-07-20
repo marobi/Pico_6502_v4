@@ -5,7 +5,7 @@
 #ifndef _M6821_h
 #define _M6821_h
 
-#include "arduino.h"
+#include "Arduino.h"
 
 ////////////////////////////////////////////////////////////////////
 // 6821 Peripheral

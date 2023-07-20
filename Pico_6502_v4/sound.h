@@ -3,7 +3,7 @@
 #ifndef _SOUND_h
 #define _SOUND_h
 
-#include "arduino.h"
+#include "Arduino.h"
 #include "pins.h"
 
 void initSound();
