@@ -1,6 +1,7 @@
 # Pico_6502_v4
 
 ***NOTE I discontinued further development on this version. For further development see the Pico_6502_v4_ehbasic project.
+Main reason is that the MSBASIC can not be extended with more commands. All commands need to fit into one page (256bytes)
 
 
 this version is my take of the NEO6502 memulator supporting a 320x240 256 color display, dual buffered.
