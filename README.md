@@ -1,5 +1,8 @@
 # Pico_6502_v4
 
+***NOTE I discontinued further development on this version. For further development see the Pico_6502_v4_ehbasic project.
+
+
 this version is my take of the NEO6502 memulator supporting a 320x240 256 color display, dual buffered.
 
 In order to have the board work correctly, connect UEXT.3 to 6502BUS.40
